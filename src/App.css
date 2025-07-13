@@ -1,0 +1,32 @@
+:root {
+    --color-dark: #27292a;
+    --color-darkest: #1f2122;
+    --color-light: #fff;
+    --color-primary: #ec6090;
+    --color-bg-darkest: var(--color-darkest);
+    --distance-primary: 50px;
+    --padding-primary: var(--distance-primary);
+    --margin-primary: var(--distance-primary);
+    --border-reduis-primary: calc(var(--distance-primary)/2);
+    --font-wheight-bold: 700;
+    --font-wheight-normal: 400;
+    --font-family-primary: 'poppins', sans-serif;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@300;700;900&display=swap');
+
+
+body {
+
+    background-color: var(--color-bg-darkest);
+    font-family: "Poppins", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
 import './Continer.css';
 
-const Continer = () => {
+
+const Continer = (props) => {
     return (
-        <div>
-            <h1>  </h1>
+        <div className="container main-container">
+            {props.children}
         </div>
     )
 }
