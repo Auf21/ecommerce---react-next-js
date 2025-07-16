@@ -17,9 +17,9 @@
     flex-wrap: wrap;
 }
 
-/* .most-popular-item {
-        flex: 1;
-    } */
+.most-popular-item {
+    flex: 1 25%;
+}
 
 .card-wrapper {
     background-color: var(--color-dark);

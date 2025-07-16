@@ -1,17 +1,17 @@
 import './card.css';
 
 import Popular_01 from '../../assets/images/popular-01.jpg'
-const card = props => {
+const card = (props) => {
     return (
         <div className='most-popular-item'>
             <div className='card-wrapper'>
-                <img className='most-popular-item-iamge' src={Popular_01} />
+                <img className='most-popular-item-iamge' src={props.image} />
                 <div className='most-popular-item-content'>
-                    <div> <h4 className='most-popular-item-title'> Fortnite<br /></h4>
-                        <span>sandbox</span></div>
+                    <div> <h4 className='most-popular-item-title'> {props.title}<br /></h4>
+                        <span>{props.category}</span></div>
                     <ul>
-                        <li>4.8</li>
-                        <li>2.3M</li>
+                        <li>{props.rate}</li>
+                        <li>{props.download}</li>
                     </ul>
                 </div>
             </div>
