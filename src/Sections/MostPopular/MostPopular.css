@@ -6,10 +6,7 @@
 }
 
 
-.section-header h4 {
-    font-size: 36px;
-    font-weight: var(--font-wheight-bold);
-}
+
 
 .most-popular-items {
     display: flex;
@@ -42,4 +39,5 @@
 
 .most-popular-item-title {
     font-size: 14px;
+    /* line-height: 1.5rem; */
 }

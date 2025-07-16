@@ -3,6 +3,7 @@
     --color-darkest: #1f2122;
     --color-light: #fff;
     --color-primary: #ec6090;
+    --color-icons: yellow;
     --color-bg-darkest: var(--color-darkest);
     --distance-primary: 50px;
     --padding-primary: var(--distance-primary);
