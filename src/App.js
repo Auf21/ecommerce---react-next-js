@@ -1,7 +1,7 @@
 import "./App.css"
 
 import { Continer } from "./components/index";
-import { Header, MostPopular, Footer, Hero } from "./Sections/index";
+import { Header, MostPopular, GammingLibrary, Footer, Hero } from "./Sections/index";
 
 /* ======================================================== */
 
@@ -12,6 +12,7 @@ const App = () => {
             <Continer >
                 <Hero />
                 <MostPopular />
+                <GammingLibrary />
             </Continer>
             <Footer />
         </>

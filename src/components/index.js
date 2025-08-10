@@ -4,3 +4,4 @@ export { default as Card } from "../components/Card/card";
 export { default as SectionWrapper } from "../components/SectionWrapper/SectionWrapper";
 export { NavItemDropdown } from "../components/NavItem/NavItem";
 export { default as SectionHeader } from "../components/SectionHeader/SectionHeader";
+export { default as GammingLibraryCard } from "../components/GammingLibraryCard/GammingLibraryCard";
